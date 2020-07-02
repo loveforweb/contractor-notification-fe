@@ -192,6 +192,17 @@ const Navigation = ({ page }) => {
               </Link>
             </LinkItem>
             <LinkItem>
+              <Link href={{ pathname: '/', hash: '#WhyJoin' }} passHref>
+                <Anchor
+                  data-id="WhyJoin"
+                  className="nav-item"
+                  onClick={handleActiveNavItem}
+                >
+                  Why Join
+                </Anchor>
+              </Link>
+            </LinkItem>
+            <LinkItem>
               <Link href={{ pathname: '/', hash: '#JoinTheList' }} passHref>
                 <Anchor
                   data-id="JoinTheList"

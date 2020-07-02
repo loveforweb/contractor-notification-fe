@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import MetaHead from '../components/MetaHead';
+import AOS from 'aos';
 import Hero from '../components/Hero';
 import WhatIsTheApp from '../components/Sections/WhatIsTheApp';
 import HowDoesItWork from '../components/Sections/HowDoesItWork';
-import AOS from 'aos';
-import WhyJoin from '../components/Sections/JoinTheList';
+import WhyJoin from '../components/Sections/WhyJoin';
+import JoinTheList from '../components/Sections/JoinTheList';
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Home = () => {
       <WhatIsTheApp />
       <HowDoesItWork />
       <WhyJoin />
+      <JoinTheList />
     </>
   );
 };

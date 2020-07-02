@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import ContactForm from '../ContactForm';
 
 const JoinTheListSection = styled.section`
+  background: ${({ theme }) => theme.melon};
   color: ${({ theme }) => theme.shark};
   padding: 3rem 0;
 `;
@@ -16,7 +17,7 @@ const JoinTheList = () => {
         <article>
           <Row>
             <Col sm={6}>
-              <h2>Why Join</h2>
+              <h2>Join The List</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
                 soluta voluptatum quibusdam quae repellat quaerat delectus
